@@ -12,5 +12,3 @@ class UserContact:
     def __str__(self):
         return f'имя: {self.name}, номер телефона: {self.phone_number}'
 
-user = UserContact('Олег', '4488815882')
-print(user)
